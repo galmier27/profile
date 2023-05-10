@@ -1,0 +1,179 @@
+/* General
+font-family: 'Caveat', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Sigmar', cursive;*/
+
+body {
+  text-align: center;
+  margin: 0px;
+
+}
+
+h1 {
+  color : #FFACAC;
+  font-family: 'Righteous', cursive;
+  margin: 0px;
+  font-size: 80px;
+  text-shadow: 0px 7px 1px #FBFFB1, 0px 12px 1px blue;
+}
+
+/* h2 {
+  color : #FFBFA9;
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+} */
+
+h3 {
+  color: #FFACAC;
+  font-family: 'Sigmar', cursive ;
+  font-size: 60px;
+}
+
+p {
+  color : #FFACAC ;
+  font-family: 'Sigmar', cursive ;
+  text-shadow:  3px 3px 1px #FBFFB1;
+  margin : 0px;
+  border-bottom: solid 1px blue;
+  padding-bottom: 30px;
+}
+a {
+  text-decoration: none;
+  color : #FFBFA9;
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+}
+
+a:hover {
+  color: #FBFFB1;
+}
+
+/* CLASS */
+.image_circle {
+  border-radius: 50%;
+  box-shadow: -29px -21px 1px blue, 29px 20px 1px blue;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.list-inline {
+  padding-left: 0px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.image{
+  border-radius: 50px ;
+  height: 150px;
+  filter: hue-rotate(100deg);
+  padding: 0 15px;
+  border: dashed 3px #FBFFB1;
+  box-shadow: 9px 3px 1px blue,
+}
+/* ID */
+
+
+#header{
+  background-color:red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+
+}
+
+#header img{
+  width: 123px;
+  border: solid 10px #FBFFB1;
+}
+
+
+#header h1{
+  margin: 0px;
+}
+
+#my_life {
+  background-color: blue;
+  margin: 10px auto 0;
+  height: 70px;
+  padding-top: 20px;
+}
+
+
+#paragraphe {
+  height: 120px;
+  /* background-color: red; */
+  padding: 40px;
+}
+
+#mon_evolution {
+  margin: 0 auto 30px;
+}
+
+#footer {
+  background-color: #FBFFB1;
+  height: 150px;
+  margin: 0 auto;
+}
+#footer h2 {
+  padding-top: 23px;
+    margin: 0 auto 20px;
+    color: blue;
+    padding-bottom: 22px;
+    border-bottom: solid 1px;
+    width: 230px;
+}
+
+
+@media (max-width: 425px) {
+
+  h1 {
+    font-size: 65px;
+  }
+
+  a {
+    font-size: 25px;
+  }
+
+  #paragraphe{
+    height: 250px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  h1 {
+    font-size: 50px;
+  }
+
+  #paragraphe{
+    height: 330px;
+  }
+}
+
+
+@media (max-width: 320px) {
+
+  h1 {
+    font-size: 40px;
+  }
+
+
+  a {
+    font-size: 20px;
+  }
+
+  #paragraphe{
+    height: 410px;
+  }
+
+  h3 {
+    font-size: 50px;
+    padding-top: 30px;
+
+  }
+}
